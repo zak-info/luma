@@ -142,9 +142,9 @@ const Portfolio = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       {/* Navigation */}
-      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg py-4' : 'bg-transparent py-6'}`}>
+      <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white shadow-lg py-4 from-violet-400 to-violet-100 ' : 'bg-transparent py-6 from-white to-gray-100'}`}>
         <div className="max-w-6xl mx-auto px-4 flex items-center justify-between">
-          <div className="text-2xl font-bold bg-gradient-to-r from-white to-gray-100 bg-clip-text text-transparent">
+          <div className="text-2xl font-bold bg-gradient-to-r  bg-clip-text text-transparent">
             Luma
           </div>
           
@@ -191,7 +191,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen relative bg-gradient-to-br from-violet-600 via-violet-700 to-indigo-800 flex items-center">
+      <section id="hero" className="min-h-screen pt-10 relative bg-gradient-to-br from-violet-600 via-violet-700 to-indigo-800 flex items-center">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="max-w-6xl mx-auto px-4 relative z-10 text-white">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
