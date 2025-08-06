@@ -191,7 +191,7 @@ const Portfolio = () => {
       </nav>
 
       {/* Hero Section */}
-      <section id="hero" className="min-h-screen pt-10 relative bg-gradient-to-br from-violet-600 via-violet-700 to-indigo-800 flex items-center">
+      <section id="hero" className="min-h-screen pt-20 relative bg-gradient-to-br from-violet-600 via-violet-700 to-indigo-800 flex items-center">
         <div className="absolute inset-0 bg-black/20"></div>
         <div className="max-w-6xl mx-auto px-4 relative z-10 text-white">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
